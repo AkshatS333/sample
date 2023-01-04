@@ -1,4 +1,4 @@
-console.log('The js file is loaded')
+
 
 
 // fetch('http://localhost:3000/weather?address=Jaipur').then((response) =>{
