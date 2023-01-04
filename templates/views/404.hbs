@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Error</title>
+     <link rel="icon" href="/img/weather.jpg">
+    <link rel="stylesheet" href="./css/style.css">
+
+
+</head>
+
+<body>
+    <div class="main-content">
+
+        {{>header}}
+        {{errorMsg}}
+    </div>
+    {{>footer}}
+    {{!-- {{}} is dynamically used to access the attributes provided in res.render --}}
+</body>
+
+</html>
